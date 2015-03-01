@@ -1,10 +1,54 @@
+@import url('http://fonts.googleapis.com/css?family=Satisfy');
+
 body{
     background-color: #e0dcdc;
 }
 
-/*.heading{
+
+.container{
+
+	height: 2000px;
+	width: 1000px;
+	margin: 70px auto 0 auto;
+}
+
+
+.heading{
 
 	background: -webkit-linear-gradient(left, #909090, #6E6E6E);
 	background: linear-gradient(left, #909090, #6E6E6E);
+	width: 1000px;
+	height: 170px;
 
-}*/
+}
+div>p{
+
+	color: #fff;
+	font-weight: 900;
+	font-size: 300%;
+	position: relative;
+	top: 35%;
+	left: 5%;
+}
+
+.navigation{
+	background-color: #3ab7b7;
+	color: #fff;
+	width: 1000px;
+	height: 60px;
+
+}
+nav{
+
+	margin-left: 50px;
+	position: relative;
+	top: 30%;
+}
+nav>a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 120%;
+    margin-right: 45px;
+
+}
