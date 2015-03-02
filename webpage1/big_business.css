@@ -7,7 +7,7 @@ body{
 
 .container{
 
-	height: 2000px;
+	height: 1800px;
 	width: 1000px;
 	margin: 70px auto 0 auto;
 	font-family: 'Open Sans';
@@ -22,7 +22,7 @@ body{
 	height: 170px;
 
 }
-div>p{
+.one{
 
 	color: #fff;
 	font-weight: 900;
@@ -57,10 +57,110 @@ nav>a{
 .middle{
 
 	background-color: #fff;
+	width: 1000px;
+	height: 1230px;
 }
 img{
 
 	margin: 50px 60px 0 60px;
 	padding: 10px;
 	border:1px solid #d4d4d4;
+}
+
+.content{
+
+	float: left;
+	margin: 10px 10px 30px 40px;
+	width: 63%;
+}	
+
+.sideTab{
+
+	float: right;
+	margin: 10px 5px 5px 5px;
+	width: 30%;
+
+
+}
+span{
+	color: #0f8c8c;
+}
+.xyz{
+	text-decoration: underline;
+}
+
+section>p{
+	font-size: 90%;
+	line-height: 200%;
+}
+div>a{
+	
+	color: #0f8c8c;
+	display: block;
+	
+	padding: 15px 0 15px 0;
+	font-size: 90%;
+	border-bottom:1px solid #d4d4d4;
+	width: 200px;
+
+}
+.content2{
+	width: 600px;
+}
+
+.middleContent{
+	float: left;
+	margin: 0 1.5%;
+	width: 63%;
+}
+.middleSideContent{
+
+   float: right;
+	margin: 0 1.5%;
+	width: 30%;
+
+}
+#midContent{
+	width: 350px;
+}
+.pic{
+	float: left;
+	margin: 0 1%;
+	width: 30%;
+}
+.imageContent{
+	float: right;
+	margin: 0 1.5%;
+	width: 63%;
+
+}
+footer{
+
+background: -webkit-linear-gradient(left, #909090, #6E6E6E);
+	background: linear-gradient(left, #909090, #6E6E6E);
+	width: 1000px;
+	height: 320px;
+	color: #fff;
+}
+.bottomContent{
+	float: left;
+	margin: 10px 10px 30px 40px;
+	width: 63%;
+}
+.bottomSidebar{
+    float: right;
+	margin: 10px 5px 5px 5px;
+	width: 30%;	
+}
+.white{
+	color: #fff;
+}
+.copyright{
+    height: 50px;
+    width: 400px;
+    display: block;
+    text-align: center;
+    margin: 20px auto 120px auto;
+    
+
 }
