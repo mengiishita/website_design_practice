@@ -7,10 +7,11 @@ body{
 
 .container{
 
-	height: 1800px;
+	height: 1700px;
 	width: 1000px;
 	margin: 70px auto 0 auto;
 	font-family: 'Open Sans';
+	font-size: 100%;
 }
 
 
@@ -58,7 +59,7 @@ nav>a{
 
 	background-color: #fff;
 	width: 1000px;
-	height: 1230px;
+	height: 1130px;
 }
 img{
 
@@ -78,7 +79,7 @@ img{
 
 	float: right;
 	margin: 10px 5px 5px 5px;
-	width: 30%;
+	width: 28%;
 
 
 }
@@ -100,24 +101,41 @@ div>a{
 	
 	padding: 15px 0 15px 0;
 	font-size: 90%;
-	border-bottom:1px solid #d4d4d4;
+	/*border-bottom:1px solid #d4d4d4;*/
 	width: 200px;
 
 }
+.horizontal-separator{
+	border-bottom:1px solid #d4d4d4;
+	width: 250px;
+
+
+}
+
+.horizontal-separator-1{
+	border-bottom:1px solid #d4d4d4;
+	width: 170px;
+
+
+}
+
 .content2{
-	width: 600px;
+	width: 650px;
+	display: block;
 }
 
 .middleContent{
 	float: left;
-	margin: 0 1.5%;
-	width: 63%;
+	margin: 0 0.5%;
+	width: 53%;
+	display: block;
 }
 .middleSideContent{
 
    float: right;
-	margin: 0 1.5%;
-	width: 30%;
+    display: block;
+	margin: 0;
+	width: 40%;
 
 }
 #midContent{
@@ -125,13 +143,21 @@ div>a{
 }
 .pic{
 	float: left;
-	margin: 0 1%;
-	width: 30%;
+	margin: 0 1.5%;
+	width: 20%;
 }
 .imageContent{
 	float: right;
-	margin: 0 1.5%;
-	width: 63%;
+	margin: 0 1%;
+	width: 70%;
+	font-size: 90%;
+	line-height: 100%;
+
+
+}
+#pic-pic{
+	width: 70px;
+	height: 70px;
 
 }
 footer{
@@ -160,7 +186,7 @@ background: -webkit-linear-gradient(left, #909090, #6E6E6E);
     width: 400px;
     display: block;
     text-align: center;
-    margin: 20px auto 120px auto;
-    
+    margin: 0px auto 120px auto;
+
 
 }
