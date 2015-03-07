@@ -70,11 +70,7 @@ a:hover{
 	line-height: 150%;
 	font-weight: 500;
 }
-.slider{
-	float: right;
-	width: 40%;
-	padding-right:100px;
-}
+
 .button{
 	float: right;
 	margin-right: 45px;
@@ -90,21 +86,55 @@ a:hover{
 	color: #414141;
 	font-size:200%;
 }
-.img-1,.img-2,
-.img-3,.img-4{
-	position: absolute;
-}
-.img-1{
-	z-index: 0;
-	opacity: 1;
+.carousel{
+
+	float: right;
+	width: 40%;
+	padding-right:100px;
+	background-image: url("slide-bg.png");
+	background-repeat: no-repeat;
+
+	
+	height: 300px;
+	position: relative;
+	overflow: hidden;
 	
 }
-.img-2,.img-3,.img-4{
-	z-index: 1;
-	opacity: 1;
+img{
 
-	}
-/*.slider{
-	-webkit-animation:slider 20s infinte;
-	        animation:slider 20s infinte;
+	max-width: 100%;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	right: 0;
+	opacity: 0;
+	-webkit-animation:carousel-fade 9s linear infinite;
+	   -moz-animation:carousel-fade 9s linear infinite;
+	        animation:carousel-fade 9s linear infinite;
+}
+.img-2{
+
+	-webkit-animation-delay: 3s;
+	-moz-animation-delay: 3s;
+	animation-delay: 3s;
+}
+.img-3{
+
+    -webkit-animation-delay: 6s;
+	-moz-animation-delay: 6s;
+	animation-delay: 6s;
+}
+
+@-webkit-keyframes carousel-fade {
+    0%, 20%, 100% { opacity: 0; }
+    5%, 15% { opacity: 1;}
+}
+@-moz-keyframes carousel-fade {
+    0%, 20%, 100% { opacity: 0; }
+    5%, 15% { opacity: 1;}
+}
+
+@keyframes carousel-fade {
+	0%, 20%, 100% { opacity: 0; }
+	5%, 15% { opacity: 1;}
 }
