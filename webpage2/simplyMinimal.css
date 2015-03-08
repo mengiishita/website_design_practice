@@ -108,21 +108,21 @@ img{
 	top: 15px;
 	right: 0;
 	opacity: 0;
-	-webkit-animation:carousel-fade 9s linear infinite;
-	   -moz-animation:carousel-fade 9s linear infinite;
-	        animation:carousel-fade 9s linear infinite;
+	-webkit-animation:carousel-fade 6s linear infinite;
+	   -moz-animation:carousel-fade 6s linear infinite;
+	        animation:carousel-fade 6s linear infinite;
 }
 .img-2{
 
-	-webkit-animation-delay: 3s;
-	-moz-animation-delay: 3s;
-	animation-delay: 3s;
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	animation-delay: 2s;
 }
 .img-3{
 
-    -webkit-animation-delay: 6s;
-	-moz-animation-delay: 6s;
-	animation-delay: 6s;
+    -webkit-animation-delay: 4s;
+	-moz-animation-delay: 4s;
+	animation-delay: 4s;
 }
 
 @-webkit-keyframes carousel-fade {
@@ -137,4 +137,72 @@ img{
 @keyframes carousel-fade {
 	0%, 20%, 100% { opacity: 0; }
 	5%, 15% { opacity: 1;}
+}
+
+.bottom-section{
+       
+    padding: 40px 200px 100px 200px;
+	height: 350px;
+	border-bottom: 2px solid #EFEFEF;
+	font-family: 'Helvetica Neue';
+
+}
+
+.latest-articles{
+
+	float: left;
+	width: 63%;
+}
+.twitter{
+
+	float: right;
+	width: 30%;
+}
+
+.article-heading,.twitter-heading{
+	color: #BEBEBE;
+	padding-bottom: 20px;
+}
+h3{
+
+	font-weight: 600;
+}
+h3:hover{
+	text-decoration: underline;
+}
+.date{
+	color: #BEBEBE;
+	font-size: 70%;
+	font-style: italic;
+}
+.read-more{
+	color: #BEBEBE;
+	font-style: italic;
+	font-size: 80%;
+
+}
+.read-more:hover{
+	text-decoration: underline;
+}
+.article{
+	padding-bottom: 10px;
+	padding-top: 20px;
+	border-bottom:2px solid #EFEFEF;
+}
+.article-text{
+	font-size: 90%;
+}
+.tweet-text{
+	font-weight: 600;
+	font-size: 110%;
+
+}
+.tweet{
+	padding-bottom: 20px;
+}
+.copyright{
+	color: #BEBEBE;
+	font-family: 'Helvetica Neue';
+	font-size: 70%;
+	padding: 20px 200px;
 }
