@@ -226,6 +226,15 @@ h3:hover{
 
 
 }
+.blog{
+	padding: 40px 200px 10px 200px;
+	border-bottom:2px solid #EFEFEF;
+	font-size: 200%;
+	font-weight: 900;
+	font-style: italic;
+
+
+}
 
 .text-content{
 	padding: 30px 200px 40px 200px;
@@ -267,6 +276,12 @@ h4{
 
 
 }
+.blog-category-popular{
+	padding: 30px 200px 40px 200px;
+	height: 750px;
+	border-bottom: 2px solid #EFEFEF;
+
+}
 .align-left{
 	float: left;
 	width: 63%;
@@ -287,10 +302,41 @@ h4{
 
 	
 }
+.read-more{
+	float: right;
+	margin-right: 45px;
+	
+	width: 80px;
+	height: 30px;
+	background-color: #000;
+	color: #fff;
+
+
+}
+#read-more-text{
+	font-size: 60%;
+}
 .project-heading{
 	font-size: 120%;
 	padding-bottom: 10px;
 	font-weight: 300;
+
+}
+.blog-heading{
+	font-size: 120%;
+	padding-bottom: 10px;
+	font-weight: 300;
+
+
+}
+.project-heading:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.blog-heading:hover{
+	text-decoration: underline;
+	cursor: pointer;
+
 
 }
 .small-text{
@@ -307,7 +353,8 @@ h4{
 	border:3px solid #E4E3E3;
 	margin-bottom: 30px;
 }
-.project-text{
+.project-text,
+.blog-text{
 	font-size: 86%;
 	color: #6a6161;
 	padding-bottom: 30px;
@@ -318,6 +365,14 @@ h4{
 	height: 370px;
 
 }
+.blog-section{
+	border-bottom: 1px solid #EFEFEF;
+	padding-top: 20px;
+	height: 220px;
+
+
+}
+
 .categories,.contact-info{
 	font-size: 80%;
 	border:1px solid #EFEFEF;
@@ -334,4 +389,20 @@ h4{
 }
 .next{
 	float: right;
+}
+.category,
+.most-popular{
+	font-size: 80%;
+	border:1px solid #EFEFEF;
+	margin-bottom: 40px;
+	padding: 20px 0px 20px 20px;
+
+
+}
+.popular-post:hover{
+	text-decoration: underline;
+}
+.grey{
+	font-style: italic;
+	color: #6a6161;
 }
