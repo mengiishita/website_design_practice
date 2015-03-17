@@ -235,6 +235,16 @@ h3:hover{
 
 
 }
+.contacts{
+	padding: 40px 200px 10px 200px;
+	border-bottom:2px solid #EFEFEF;
+	font-size: 200%;
+	font-weight: 900;
+	font-style: italic;
+
+
+
+}
 
 .text-content{
 	padding: 30px 200px 40px 200px;
@@ -282,6 +292,12 @@ h4{
 	border-bottom: 2px solid #EFEFEF;
 
 }
+.form-contact{
+	padding: 30px 200px 40px 200px;
+	height: 750px;
+	border-bottom: 2px solid #EFEFEF;
+}
+
 .align-left{
 	float: left;
 	width: 63%;
@@ -329,6 +345,13 @@ h4{
 
 
 }
+/*.contact-heading{
+	font-size: 120%;
+	padding-bottom: 10px;
+	font-weight: 300;
+
+
+}*/
 .project-heading:hover{
 	text-decoration: underline;
 	cursor: pointer;
@@ -339,6 +362,12 @@ h4{
 
 
 }
+/*.contact-heading:hover{
+	text-decoration: underline;
+	cursor: pointer;
+
+
+}*/
 .small-text{
 
 	font-size: 70%;
@@ -405,4 +434,33 @@ h4{
 .grey{
 	font-style: italic;
 	color: #6a6161;
+}
+
+.field{
+	color: #616179;
+	padding-bottom: 20px;
+	font-size: 120%;
+	font-weight: 600;
+}
+
+
+label{
+	color: #616179;
+	display: inline-block;
+	padding-right: 20px;
+	text-align: left;
+	width: 75px;
+
+}
+.send{
+	width: 60px;
+	height: 25px;
+
+}
+.send-text{
+	font-size: 80%;
+	color: #837976;
+}
+textarea{
+	vertical-align: top;
 }
